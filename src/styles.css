@@ -17,7 +17,7 @@ html {
 
 body {
   height: 100vh;
-  color: #495057;
+  color: #574949;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,6 +69,7 @@ body {
 .selected,
 .sidebar li:hover {
   background-color: var(--color-lightest);
+  transition: 0.7s;
 }
 
 .sidebar li img {
