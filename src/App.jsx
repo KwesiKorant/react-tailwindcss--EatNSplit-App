@@ -75,7 +75,7 @@ function App() {
         </div>
 
         {selectedFriend && (
-          <FormSplitBill
+          <FormSplitBill key={crypto.randomUUID()}
             selectedFriend={selectedFriend}
             onSplitBill={handleSplitBill}
           />
